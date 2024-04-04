@@ -1,0 +1,239 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+  
+width: 100vw;
+
+}
+.heading{
+
+    display: flex; 
+    align-items: center;
+    justify-content: space-around;
+    height: 15vh;
+    width: 100vw;
+
+}
+.head1 a{
+    padding-left: 15px;
+    color: rgb(151, 146, 146);
+    text-decoration: none;
+}
+ button{
+    border: 2px solid rgb(46, 233, 233);
+     height: 43px;
+    width: 130px;
+  background-color: rgb(48, 204, 165);
+    border-radius: 20px;
+     font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+  color: aliceblue;
+  padding-top:3px ;
+
+}
+.sec2{
+ 
+    display: flex;
+    justify-content: space-between;
+    height:100vh;
+    width: 100vw;
+    /* background-color: rgb(201, 193, 193); */
+
+}
+.box1{ 
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    
+}
+#one{
+    width: 40%;
+    background-color: rgb(233, 233, 233);
+    display: flex;
+    flex-direction: column; 
+     justify-content: center; 
+    align-items: center;
+
+padding-bottom: 50px;
+}
+#one h1{
+    padding-right: 34px;
+}
+.hd{
+    padding-bottom: 25px;
+    text-align: left;
+}
+#one p{
+    margin-left: 60px;
+    text-align: left;
+    width: 60%;
+}
+#one button{
+    margin-top: 25px;
+margin-right: 140px;
+}
+#two{
+    width: 60%;
+    position: relative;
+    background-color:  rgb(233, 233, 233);
+
+
+}
+
+#two.img{
+height: 100%;
+width: 100%;
+}
+
+
+
+#two svg{
+    height: 100%;
+    width: 100%; 
+} 
+#two img{
+
+   position: absolute;
+    height: 140%;
+   width: 100%;}
+
+
+   .sec3{
+    background-color: rgb(233, 233, 233);
+    height: 80vh;
+    width: 100vw;
+    display: grid;
+    gap: 5px;
+    grid-template-rows: 1fr 1fr 3fr;
+    grid-template-columns: repeat(4,1fr);
+  padding-left: 140px;
+    padding-right: 140px; 
+  }
+
+
+   #e1{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    text-align: left;
+   }
+   #e1 p{
+    padding-top: 15px;
+    width: 400px;
+    height: 50px;
+    
+   }
+   #e1 h1{
+    padding-top: 65px;
+   }
+   #e2{
+    grid-column-start: 1;
+    grid-column-end: 5;
+   }
+   .ele{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+   row-gap: 30px;
+   }
+   .ele p{
+   width: 220px;
+   }
+
+.sec4{
+    display: grid;
+    height: 90vh;
+    width: 100vw;
+    
+ 
+    column-gap: 25px;
+    grid-template-rows: 1fr 5fr;
+    grid-template-columns: repeat(4,1fr);
+    padding-left: 140px;
+    padding-right: 140px; 
+    padding-top: 55px;
+ background-color: rgb(247, 242, 242);
+   
+
+}
+.blo{
+   background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+
+} 
+.blo img{
+    height: 200px;
+    width:100%;
+}
+.blo h2{
+    margin-top: 13px;
+    margin-bottom:13px ;
+}
+#blo1{
+    grid-column-start: 1;
+   grid-column-end: 5;
+
+}
+.dabba{
+    height: 60%;
+     width: 100%;
+    padding: 10px;
+    
+
+}
+
+.sec5{
+    height: 30vh;
+     width: 100vw;
+     background-color: rgb(0, 7, 104);
+     padding-left: 140px;
+    padding-right: 140px; 
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+.part1{
+    
+   display: flex;
+
+    height: 90%;
+}
+#p1{
+ display: flex;
+    width: 50%;
+    
+ justify-content: space-between;
+}
+.p11{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 30%;
+   
+    align-items: center;
+    justify-content: center;
+}
+#p111 svg{
+ margin-bottom: 30px;
+}
+.p11 a{
+    margin-bottom: 20px;
+    color: white;
+    text-decoration: none;
+}
+#p2{
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    width: 30%;
+}
+#p2 p{
+    color: white;
+    margin-top: 20px;
+}
